@@ -1,0 +1,54 @@
+[
+{"type":"header","version":"5.0.4","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"railway"},
+{"type":"table","name":"records","database":"railway","data":
+[
+{"id":"4ErE4NyEqATTRma5Q","username":"testingforEmailoption2","fullname":"testing teser","email":"test@email.com","dob":"13-04-2021","number":"07987654361","password":"andrew"},
+{"id":"77777777","username":"Admin","fullname":"Admin Name","email":"Admin@Admin.ac.uk","dob":"01-01-0001","number":"077777777","password":"123"},
+{"id":"7mRQNEcyDU2QQanSz","username":"testingforemail","fullname":"testing teser","email":"test@email.co.uk","dob":"07-04-2011","number":"07987654321","password":"andrew"},
+{"id":"AlvMV7V6alutM6dWs","username":"eddieappiah","fullname":"Edwin Appiah","email":"edwin_appiah@hotmail.com","dob":"04-08-1996","number":"07985348513","password":"Andrewd6"},
+{"id":"DaaGpbSq5fePRD6bb","username":"good123","fullname":"Edward pointer","email":"edwardpointer@live.co.uk","dob":"14-04-2021","number":"07657485694","password":"123"},
+{"id":"ESozbES5qcbx9A4ed","username":"testin","fullname":"testy","email":"test345@live.com","dob":"12-04-2000","number":"07456547734","password":"noooo"},
+{"id":"k10JFq9R9JBCsajk4","username":"gtesting","fullname":"lolollolollolo","email":"olololol@hot.com","dob":"31-05-2021","number":"09053468756","password":"andrew"},
+{"id":"qq9UKoKxJ9NqJ9vAM","username":"Rubberducks","fullname":"Tyrone Bob","email":"Rubberducks@example.com","dob":"01-01-1998","number":"07695938349","password":"Ducks123"},
+{"id":"Z9ADfHoKMI0ZAneed","username":"testing","fullname":"tester test","email":"testing@test.co.uk","dob":"07-04-2006","number":"07456547743","password":"nooooo"}
+]
+}
+,{"type":"table","name":"reservation","database":"railway","data":
+[
+{"pno":"AlvMV7V6alutM6dWs","ticketnum":"09085017","splace":"London ","dplace":"Manchester","tno":"635738","tname":"Train Line","price":"40.00","date":"04-08-2021","ticket":"4","total":"160.00"},
+{"pno":"","ticketnum":"12100342","splace":"Manchester","dplace":"London","tno":"123876","tname":"Train Line","price":"21.70","date":"12-05-2021","ticket":"1","total":"21.70"},
+{"pno":"qq9UKoKxJ9NqJ9vAM","ticketnum":"21278390","splace":"London ","dplace":"Nottingham","tno":"639938","tname":"Train Line","price":"24.88","date":"23-12-2021","ticket":"1","total":"24.88"},
+{"pno":"","ticketnum":"25556593","splace":"Manchester","dplace":"London","tno":"123876","tname":"Train Line","price":"21.70","date":"09-54-2021","ticket":"2","total":"43.40"},
+{"pno":"","ticketnum":"31148635","splace":"Manchester","dplace":"London","tno":"123876","tname":"Train Line","price":"21.70","date":"12-06-2021","ticket":"2","total":"43.40"},
+{"pno":"77777777","ticketnum":"31966452","splace":"Manchester","dplace":"London","tno":"123876","tname":"Train Line","price":"0.00","date":"08-25-2021","ticket":"6","total":"0.00"},
+{"pno":"77777777","ticketnum":"41306144","splace":"Canterbury","dplace":"London","tno":"564798","tname":"Train Line","price":"30.00","date":"2021-04-15","ticket":"1","total":"30.00"},
+{"pno":"77777777","ticketnum":"43436514","splace":"Canterbury","dplace":"London","tno":"564798","tname":"Train Line","price":"30.00","date":"2021-04-08","ticket":"5","total":"150.00"},
+{"pno":"qq9UKoKxJ9NqJ9vAM","ticketnum":"65942803","splace":"London ","dplace":"Canterbury","tno":"765684","tname":"Train Line","price":"30.00","date":"05-13-2021","ticket":"1","total":"30.00"},
+{"pno":"","ticketnum":"66319612","splace":"Manchester","dplace":"London","tno":"123876","tname":"Train Line","price":"21.70","date":"02-46-2021","ticket":"1","total":"21.70"},
+{"pno":"DaaGpbSq5fePRD6bb","ticketnum":"69785776","splace":"Portsmouth","dplace":"Southampton","tno":"973252","tname":"Train Line","price":"10.00","date":"2021-04-14","ticket":"1","total":"10.00"},
+{"pno":"qq9UKoKxJ9NqJ9vAM","ticketnum":"76426583","splace":"Manchester","dplace":"London","tno":"123876","tname":"Train Line","price":"40.00","date":"05-13-2021","ticket":"1","total":"40.00"},
+{"pno":"","ticketnum":"87316895","splace":"Manchester","dplace":"London","tno":"123876","tname":"Train Line","price":"21.70","date":"12-06-2021","ticket":"1","total":"21.70"},
+{"pno":"DaaGpbSq5fePRD6bb","ticketnum":"92265872","splace":"Canterbury","dplace":"London","tno":"564798","tname":"Train Line","price":"30.00","date":"2021-04-09","ticket":"3","total":"90.00"},
+{"pno":"qq9UKoKxJ9NqJ9vAM","ticketnum":"94170983","splace":"Manchester","dplace":"London","tno":"123876","tname":"Train Line","price":"21.70","date":"08-12-2021","ticket":"2","total":"43.40"},
+{"pno":"qq9UKoKxJ9NqJ9vAM","ticketnum":"97262260","splace":"Canterbury","dplace":"Nottingham","tno":"667242","tname":"Train Line","price":"35.00","date":"05-13-2021","ticket":"1","total":"35.00"}
+]
+}
+,{"type":"table","name":"traindetails","database":"railway","data":
+[
+{"tno":"123876","tname":"Train Line","startplace":"Manchester","destination":"London","price":"21.70"},
+{"tno":"367534","tname":"Train Line","startplace":"London ","destination":"Portsmouth","price":"8.90"},
+{"tno":"557765","tname":"Train Line","startplace":"Southampton","destination":"London","price":"6.99"},
+{"tno":"561237","tname":"Train Line","startplace":"Portsmouth","destination":"London","price":"8.90"},
+{"tno":"564798","tname":"Train Line","startplace":"Canterbury","destination":"London","price":"7.50"},
+{"tno":"574865","tname":"Train Line","startplace":"Nottingham","destination":"Canterbury","price":"15.75"},
+{"tno":"635738","tname":"Train Line","startplace":"London ","destination":"Manchester","price":"21.70"},
+{"tno":"639938","tname":"Train Line","startplace":"London","destination":"Nottingham","price":"24.88"},
+{"tno":"667242","tname":"Train Line","startplace":"Canterbury","destination":"Nottingham","price":"15.75"},
+{"tno":"749325","tname":"Train Line","startplace":"London","destination":"Southampton","price":"6.99"},
+{"tno":"765684","tname":"Train Line","startplace":"London","destination":"Canterbury","price":"7.50"},
+{"tno":"862345","tname":"Train Line","startplace":"Nottingham","destination":"London","price":"24.88"},
+{"tno":"973252","tname":"Train Line","startplace":"Portsmouth","destination":"Southampton","price":"10.00"}
+]
+}
+]
